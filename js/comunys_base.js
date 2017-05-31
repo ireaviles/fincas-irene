@@ -739,7 +739,7 @@ function getSaldoH(cargaPagos) {
 }
 
 
-function ajustar_pago_page( ui ){}
+function ajustar_pago_page( ui ){
 
 
 	chkLocalNames();
@@ -1651,5 +1651,3 @@ if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g)) {
 }
 
 }
-
-
