@@ -1649,5 +1649,3 @@ if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g)) {
     }).trigger('orientationchange');
 
 }
-
-}
