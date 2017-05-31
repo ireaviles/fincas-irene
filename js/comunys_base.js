@@ -34,22 +34,19 @@ function consola_debug(txt){
 }
 
 
-
+<<<<<<< HEAD
 var def_url 	= "http://sardon.comunys.es";
 var app_url 	= "http://sardon.comunys.es/procms/login.pro?app=1";
+=======
+var def_url 		= "http://sardon.comunys.es";
+var app_url 		= "http://sardon.comunys.es/procms/login.pro?app=1";
 
-var def_url 		= "http://proyectos.gabitelingenieros.com/";//http://sardon.comunys.es";
-//var app_url 		= "http://proyectos.gabitelingenieros.com/procms/Apps/ProyGabitel/1.0/";//http://sardon.comunys.es/procms/login.pro?app=1";
-var app_url			= "http://proyectos.gabitelingenieros.com/procms/app_login.pro";
 
-/*
 var login_url 		= "http://sardon.comunys.es/procms/app_login.pro";
 var login_sess		= "http://sardon.comunys.es/procms/app_checksess.pro";
 var login_index 	= "http://sardon.comunys.es/procms/index.pro";
-*/
-var login_url		= "http://proyectos.gabitelingenieros.com/procms/app_login.pro";
-var login_sess		= "http://proyectos.gabitelingenieros.com/procms/app_checksess.pro";
-var login_index		= "http://proyectos.gabitelingenieros.com/procms/index.pro";
+
+>>>>>>> 696125e916b52e494bd29c636ba70e5fa8428621
 
 
 /* =============================== */
@@ -88,7 +85,7 @@ var app = {
 
 
 
-
+<<<<<<< HEAD
 /* =============================== */
 /* =============================== */
 /* FOTO */
@@ -355,7 +352,8 @@ function onCapturePhoto(){
 /* =============================== */
 /* =============================== */
 
-
+=======
+>>>>>>> origin/master
 
 
 
@@ -496,7 +494,10 @@ function navigation_adjust_back_button(){
 	else { navigator.app.backHistory(); }	
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 
 
 function init_details( obj ){
@@ -509,12 +510,15 @@ function init_details( obj ){
 			var user_name 	= obj.user_name;
 			var user_email 	= obj.user_email;
 
-
+<<<<<<< HEAD
+						
+=======
 			if (obj.allinv){ allow_invite = obj.allinv; } else { allow_invite = -1; }
 			
 			cntpred			= obj.cntpred; //Si tiene predefinidos, no carga de la Agenda
 			
 
+>>>>>>> origin/master
 			IdU = obj.IdU;
 			IdS = obj.IdS;
 			
@@ -535,7 +539,7 @@ function init_details( obj ){
 }
 
 
-
+<<<<<<< HEAD
 /*
 function send_get(p_url, p_data, p_callback) {
     
@@ -573,13 +577,13 @@ function send_get(p_url, p_data, p_callback) {
 
 
 
-
+=======
 
 
 
 var validator_pago_page = null;
 
-
+>>>>>>> origin/master
 
 function scroll_bottom(){	
 	var last_elem = $( "body" ).pagecontainer( "getActivePage" ).find(".ui-listview li").last();  
@@ -589,7 +593,7 @@ function scroll_bottom(){
     } else { 
 		setTimeout(function(){ $.mobile.silentScroll( $(document).height() ); }, 1);
     }
-
+<<<<<<< HEAD
 }
 
 
@@ -739,9 +743,9 @@ function getSaldoH(cargaPagos) {
 }
 
 
-function ajustar_pago_page( ui ){
+function ajustar_pago_page( ui ){}
 
-
+=======
 	chkLocalNames();
 }
 
@@ -837,7 +841,7 @@ updateCallback	- xxxx
 
 
 
-
+>>>>>>> origin/master
 
 
 /* *************************** */
@@ -979,13 +983,16 @@ function push_codes( msg ){ if (msg == 'Sesión desconectada') { Salir(); return
 /* *************************************** */
 /* ON LOAD ******************************* */
 
-
+<<<<<<< HEAD
 function carga_webapp(){
-	var app_url 	= "http://proyectos.gabitelingenieros.com/procms/Apps/ProyGabitel/1.0/";//http://sardon.comunys.es/procms/login.pro?app=1";
+	var app_url 	= "http://sardon.comunys.es/procms/login.pro?app=1";
 	window_interior = window.open(app_url, '_self', 'location=no');
 	
 	//window_interior = window.open("http://sardon.comunys.com/procms/Apps/Fincas/1.5/ModObj.pro?to=10&id=&idp=7v8YEV8CcmMPZsim0nuYAw&idpro2=FT_OQzsaG3GKj4aaErJ_EA&debug=1", '_self', 'location=no');
+=======
+>>>>>>> 696125e916b52e494bd29c636ba70e5fa8428621
 
+<<<<<<< HEAD
 function tengo_sesion(){
 
 		IdU = getInfo("IdU");
@@ -1085,6 +1092,8 @@ function onLoad(){
 
 
 
+<<<<<<< HEAD
+=======
 /* *************************************** */
 /* *************************************** */
 // Arguments :
@@ -1111,6 +1120,7 @@ function onLoad(){
 /* *************************************** */
 /* *************************************** */
 
+>>>>>>> origin/master
 
 /* *************************************** */
 /* LOGIN USUARIO ************************* */
@@ -1177,13 +1187,13 @@ function login_aux(msg){
 
 
 var window_interior = null;
-
+<<<<<<< HEAD
 var login_url 		= "http://sardon.comunys.es/procms/app_login.pro";
 var login_sess		= "http://sardon.comunys.es/procms/app_checksess.pro";
 var login_index 	= "http://sardon.comunys.es/procms/index.pro";
+=======
 
-
-
+>>>>>>> 696125e916b52e494bd29c636ba70e5fa8428621
 
 var auto_login_ok = 0;
 function auto_login(){
@@ -1314,7 +1324,7 @@ function final_login(){
 
 
 
-
+<<<<<<< HEAD
 
 /* SALIR */
 function Salir( unreg ) { 
@@ -1355,10 +1365,10 @@ function Salir( unreg ) {
 							change_to('index.html'); 
 						} 		
 				}
+=======
 
 
-
-
+>>>>>>> origin/master
 
 		} else {
 				console.log( "#4044" );			
@@ -1371,7 +1381,7 @@ function Salir( unreg ) {
 
 
 
-
+<<<<<<< HEAD
 function getPhoneGapPath() {
     var path = window.location.pathname;
     var sizefilename = path.length - (path.lastIndexOf("/")+1);
@@ -1387,9 +1397,9 @@ function get_current_page(){
 
 
 function change_to(pagina) {
-
+=======
 function change_to(id, callback_func, lista) {
-
+>>>>>>> origin/master
 	
 	if ( pagina != get_current_page() ){
 
@@ -1435,7 +1445,8 @@ function change_to(id, callback_func, lista) {
 
 
 
-
+<<<<<<< HEAD
+=======
 
 function updateSalaH_CB(){ 
 	$('#listRoomH').listview("refresh"); 
@@ -1444,7 +1455,7 @@ function updateSalaH_CB(){
 	setTimeout(function(){ $("#listRoomH").fadeTo( 300 , 100); }, 100);	
 }
 function updateSalaH(){ change_to('ppal', updateSalaH_CB); }
-
+>>>>>>> origin/master
 //function set_bgcolor(color){ document.body.style.backgroundColor = color; }
 function set_bgcolor_out(){ $('body').addClass('bg_out'); $('body').removeClass('bg_in');  /*document.body.style.backgroundColor = "#eaac14";*/ }
 function set_bgcolor_in(){  $('body').addClass('bg_in');  $('body').removeClass('bg_out'); /*document.body.style.backgroundColor = "#F2F2F2";*/ }
@@ -1481,7 +1492,7 @@ function menu_toggle(){ /* $("#mypanel_menu").panel('toggle'); */ }
 function menu_close(){ /*$("#mypanel_menu").panel('close'); */ }
 function loader_hide(){ /* $.mobile.loading("hide"); */ }
 function hide_loading(){ setTimeout(function(){ loader_hide(); }, 1); }
-
+<<<<<<< HEAD
 function show_loading(txt) { setTimeout(function(){ /* $.mobile.loading('show'); */ }, 1); }
 
 
@@ -1493,11 +1504,11 @@ function clearInfo(){
 	IdS = ""; 
 	registration_id = ""; 
 }
-
+=======
 function show_loading(txt) { setTimeout(function(){ $.mobile.loading('show', { text: txt, textVisible: true, theme: 'b', html: "<span class='ui-bar ui-overlay-c ui-corner-all'><h2>" + txt + "</h2></span>" }); }, 1); }
 function clearInfo(){ window.localStorage.clear(); IdU = ""; IdS = ""; registration_id = ""; /*clearSaldo();*/ reset_color_sch(); }
 function reset_color_sch(){ $("#dynamic_css").attr("href",''); }
-
+>>>>>>> origin/master
 function getInfo( clave ){ return window.localStorage.getItem(clave); }
 function setInfo( clave, valor ){ window.localStorage.setItem(clave, valor); }
 function indice_de_id(cid) { return getInfo("contc_ref_id_" + cid); }
@@ -1647,5 +1658,9 @@ if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g)) {
         if (window.orientation == 90 || window.orientation == -90 || window.orientation == 270) { $viewport.attr('content', 'height=device-width,width=device-height,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0'); } 
 		else { $viewport.attr('content', 'height=device-height,width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0');  }
     }).trigger('orientationchange');
-
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> origin/master
