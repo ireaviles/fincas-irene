@@ -739,7 +739,7 @@ function getSaldoH(cargaPagos) {
 }
 
 
-function ajustar_pago_page( ui ){}
+function ajustar_pago_page( ui ){
 
 
 	chkLocalNames();
