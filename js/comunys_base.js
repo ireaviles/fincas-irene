@@ -34,19 +34,22 @@ function consola_debug(txt){
 }
 
 
-<<<<<<< HEAD
+
 var def_url 	= "http://sardon.comunys.es";
 var app_url 	= "http://sardon.comunys.es/procms/login.pro?app=1";
-=======
-var def_url 		= "http://sardon.comunys.es";
-var app_url 		= "http://sardon.comunys.es/procms/login.pro?app=1";
+
+var def_url 		= "http://proyectos.gabitelingenieros.com/";//http://sardon.comunys.es";
+var app_url 		= "http://proyectos.gabitelingenieros.com/procms/Apps/ProyGabitel/1.0/";//http://sardon.comunys.es/procms/login.pro?app=1";
 
 
+/*
 var login_url 		= "http://sardon.comunys.es/procms/app_login.pro";
 var login_sess		= "http://sardon.comunys.es/procms/app_checksess.pro";
 var login_index 	= "http://sardon.comunys.es/procms/index.pro";
-
->>>>>>> 696125e916b52e494bd29c636ba70e5fa8428621
+*/
+var login_url		= "http://proyectos.gabitelingenieros.com/procms/app_login.pro";
+var login_sess		= "http://proyectos.gabitelingenieros.com/procms/app_checksess.pro";
+var login_index		= "http://proyectos.gabitelingenieros.com/procms/index.pro";
 
 
 /* =============================== */
@@ -985,7 +988,7 @@ function push_codes( msg ){ if (msg == 'Sesión desconectada') { Salir(); return
 
 <<<<<<< HEAD
 function carga_webapp(){
-	var app_url 	= "http://sardon.comunys.es/procms/login.pro?app=1";
+	var app_url 	= "http://proyectos.gabitelingenieros.com/procms/Apps/ProyGabitel/1.0/";//http://sardon.comunys.es/procms/login.pro?app=1";
 	window_interior = window.open(app_url, '_self', 'location=no');
 	
 	//window_interior = window.open("http://sardon.comunys.com/procms/Apps/Fincas/1.5/ModObj.pro?to=10&id=&idp=7v8YEV8CcmMPZsim0nuYAw&idpro2=FT_OQzsaG3GKj4aaErJ_EA&debug=1", '_self', 'location=no');
